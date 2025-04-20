@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+header {
+  margin: 7.5rem 0;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header div {
+  text-align: center;
+}
+
+img {
+  width: 300px;
+  height: 300px;
+  margin-bottom: 1rem;
+}
+
+div > h3, p {
+  text-align: center;
+  margin-bottom: 0.5rem;
+} 
