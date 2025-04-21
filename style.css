@@ -32,8 +32,8 @@ img {
 }
 
 img.programming-language {
-  width: 200px;
-  height: 200px;
+  width: 250px;
+  height: 250px;
   margin-bottom: 1rem;
 }
 div > h3, p {
@@ -72,6 +72,45 @@ div.wrapper > p {
   font-weight: 500;
   margin-left: 2rem;
 }
+
+.card-wrap {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.card {
+  border: #555 solid 1px;
+  background-color: white;
+  border-radius: 10px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  overflow: hidden;
+  transition: transform 0.3s ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-content {
+  padding: 20px;
+  text-align: center;
+}
+
+.card-img {
+  width: 100%;  
+  margin-bottom: 10px;
+}
+
+.card-desc {
+  font-size: 1.5em;
+  font-weight: 500;
+  color: #555;
+}
+
 
 /* ! responsive css */
 @media screen and (max-width: 768px) {
