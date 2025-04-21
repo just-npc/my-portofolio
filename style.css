@@ -36,18 +36,20 @@ img.programming-language {
   height: 250px;
   margin-bottom: 1rem;
 }
-div > h3, p {
+div > h3{
   /*! center buat responsive layar tablet atau hp nanti */
   /* text-align: center; */
   margin-bottom: 0.5rem;
+  font-size: 1.7rem;
+  font-weight: 700;
 } 
 
-div > h3 {
+article > h3 {
   font-size: 1.5rem;
   font-weight: 700;
   text-align: center;
 }
-div > p {
+article > p {
   font-size: 1rem;
   font-weight: 500;
 }
@@ -60,7 +62,7 @@ body > main {
   margin: 0 2rem;
 }
 
-main > div.about > div.wrapper{
+main > article.about > div.wrapper{
   display: flex;
   justify-content: center;
   align-items: center;
