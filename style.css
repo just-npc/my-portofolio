@@ -113,6 +113,11 @@ div.wrapper > p {
   color: #555;
 }
 
+footer {
+  text-align: center;
+  margin: 2rem 0 0 0;
+  padding: 1rem;
+}
 
 /* ! responsive css */
 @media screen and (max-width: 768px) {
